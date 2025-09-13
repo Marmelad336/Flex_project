@@ -63,3 +63,23 @@ button {
     color: white;
     padding: 2px;
 }
+
+.interesting {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.imgtext {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+.info {
+    max-width: 100px;
+}
