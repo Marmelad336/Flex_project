@@ -83,3 +83,27 @@ img {
 .info {
     max-width: 100px;
 }
+
+.speak {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakchild1 p {
+    width: 400px;
+    font-size: 16px;
+    padding: 30px 0 0 0;
+    font-weight: 300;
+}
+
+.speakchild2 {
+    font-weight: 600;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+    padding-bottom: 30px;
+}
