@@ -41,6 +41,7 @@ ul {
     align-items: center;
     gap: 20px;
     background-color: #1F2937;
+    justify-content: space-around;
 }
 
 #img1 {
@@ -121,13 +122,14 @@ img {
 
 .subscribe {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
     margin: 40px;
     background-color: #3882F6;
     border-radius: 6px;
     align-items: center;
     color: white;
+    padding: 0 20px;
 }
 #time {
     font-weight: 700;
